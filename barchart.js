@@ -9,9 +9,9 @@ let margin = { top: 40, right: 20, bottom: 40, left: 90 },
     document.querySelector("#chart-area").clientWidth -
     margin.left -
     margin.right,
-  height = 400 - margin.top - margin.bottom;
+  height = 600 - margin.top - margin.bottom;
 
-width = width > 600 ? 600 : width;
+width = width > 700 ? 700 : width;
 
 let svg = d3
   .select("#chart-area")

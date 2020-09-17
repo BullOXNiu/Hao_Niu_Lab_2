@@ -117,7 +117,7 @@ body {
       box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
       pointer-events: none;
       background-color: #FA09A6;
-      left: 105%;
+      right: 50%;
       top: -5px;
   }
   
